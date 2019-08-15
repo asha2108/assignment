@@ -1,0 +1,136 @@
+/* Form */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+form {
+    width: 500px;
+    padding: 40px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+    margin: 50px auto 0;
+}
+
+/* Form field css */
+.form div {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* To remove the last form field margin */
+.form div:last-of-type {
+    margin-bottom: 0;
+}
+
+/* For the input tag */
+input {
+    width: 500px;
+    display: block;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #6398fa;
+    outline: none;
+}
+
+/* For field title */
+label {
+    font-size: 12px;
+    color: #221f4d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input::placeholder {
+    font-size: 12px;
+    color: rgba(34,31,77,0.5);
+    padding-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* For the submit button*/
+#submit {
+    width: 500px;
+    background-color: #0f5ef0;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    height: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .5s ease;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#submit:hover {
+    background-color: #0c4bc0;
+}
+
+/* Data */
+.data {
+    width: 800px;
+    table-layout: fixed;
+    border-spacing: 0;
+    margin: 50px auto;
+    border: 2px solid #CBD6E2;
+}
+
+/* for alternate color in rows */
+.data tr:nth-child(odd) {
+    background-color: #f5f8fa;
+}
+
+/* for the heading in the table */
+.data th {
+    background-color: #CBD6E2;
+    font-size: 12px;
+    font-weight: 600;
+    color: #221f4d;
+    padding: 10px 15px;
+    text-align: left;
+    border-right: 2px solid #929aa2;
+}
+
+.data th:last-child {
+    border-right: none;
+}
+
+.data tr {
+    cursor: pointer;
+}
+
+/* for columns in the table */
+.data td {
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #221f4d;
+}
+
+/* on hover of any content in the table */
+.data tr:hover {
+    background-color: #e7effd;
+    border-color: #0f5ef0;
+}
+
+/* below three css are for the arrows in the heading */
+.arrow_down_grey {
+    background-image: url(../img/arrow-down-grey.png);
+    background-repeat: no-repeat;
+    background-size: 9px 6px;
+    background-position: 92% 50%;
+}
+
+.arrow_up {
+    background-image: url(../img/arrow-up.png);
+    background-repeat: no-repeat;
+    background-size: 9px 6px;
+    background-position: 92% 50%;
+}
+
+.arrow_down {
+    background-image: url(../img/arrow-down.png);
+    background-repeat: no-repeat;
+    background-size: 9px 6px;
+    background-position: 92% 50%;
+}
